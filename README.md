@@ -34,3 +34,5 @@ git merge <branch_name>  将指定分支branch_name合并到当前分支
 git branch -d <branch_name>  删除指定分支
 
 git log --graph    查看分支合并图
+
+hi i am feature.
