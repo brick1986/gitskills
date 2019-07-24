@@ -33,6 +33,8 @@ git merge <branch_name>  将指定分支branch_name合并到当前分支
 
 git branch -d <branch_name>  删除指定分支
 
+git branch -D <branch_name>  当要删除的分支包含为merge的内容时，-D参数可以强制删除指定分支
+
 git log --graph    查看分支合并图
 
 git status      查看当前分支状态
