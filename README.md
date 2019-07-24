@@ -36,3 +36,12 @@ git branch -d <branch_name>  删除指定分支
 git log --graph    查看分支合并图
 
 git status      查看当前分支状态
+
+
+分支策略：
+
+master 分支， 稳定，只用作发布版本
+
+dev 分支， 不稳定，用做开发，频繁更新。 dev测试得到一个稳定版本，将dev合并到master上用作发布
+
+成员分支， 每个用户的分支，开发完成后合并分支到 dev
