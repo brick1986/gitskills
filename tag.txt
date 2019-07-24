@@ -1,0 +1,25 @@
+Tag
+
+
+创建标签：
+
+git tag v1.0  		默认标签是打在最新提交的commit上的,即HEAD
+
+git tag v0.9 f52c633		指定commit id，打一个 v0.9 的 tag
+
+git tag -a v0.1 -m "version 0.1 released" 1094adb	创建一个带有说明的tag
+
+
+操作标签：
+
+git tag -d v0.9		删除本地标签 -d 参数
+
+git push origin v1.0	推送某个标签到远程
+
+git push origin --tags	一次推送全部尚未推送到远程的标签
+
+git tag -d v0.9			删除远程库的标签
+git push origin :refs/tags/v0.9	
+
+
+
