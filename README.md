@@ -17,3 +17,17 @@ git push -u origin master     第一次推送master分支所有内容，-u参数
 git push <origin> <master>    将本地分支的修改推送到远程库
 
 git clone git@github.com:brick1986/gitskills.git   克隆一个远程仓库
+
+
+分支相关命令：
+
+git branch dev     创建一个叫 dev 的分支
+
+git checkout dev   切换到 dev 分支
+
+git checkout -b dev   创建dev分支并且切换到dev分支，是一个简写的命令，合并了创建和切换
+
+git branch		查看当前所有分支，当前分支前会有一个*号
+
+
+
