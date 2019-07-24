@@ -29,5 +29,7 @@ git checkout -b dev   创建dev分支并且切换到dev分支，是一个简写�
 
 git branch		查看当前所有分支，当前分支前会有一个*号
 
+git merge <branch_name>  将指定分支branch_name合并到当前分支
 
+git branch -d <branch_name>  删除指定分支
 
