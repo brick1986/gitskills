@@ -44,4 +44,4 @@ master 分支， 稳定，只用作发布版本
 
 dev 分支， 不稳定，用做开发，频繁更新。 dev测试得到一个稳定版本，将dev合并到master上用作发布
 
-成员分支， 每个用户的分支，开发完成后合并分支到 dev。 1. edit on brick-branchxxxxxx   2. edit on qcy-branchyyyyyy
+成员分支， 每个用户的分支，开发完成后合并分支到 dev。 1. edit on brick-branchxxxxxx   2. edit on qcy-branchyyyyyy  3. it is a feature on dev, status is developing...
