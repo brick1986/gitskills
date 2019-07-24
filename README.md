@@ -1,1 +1,19 @@
 # gitskills
+
+常用的命令：
+
+git add <filename>    将本地修改增加到stage(暂存区)
+
+git commit -m "message"  将stage里暂存的 修改 提交到本地分支
+
+git checkout -- <filename>   丢弃本地未提交到stage的修改
+
+git reset HEAD <filename>  回退到指定的版本号，HEAD表示最新的版本
+
+git remote add origin git@github.com:brick1986/learngit.git    关联一个远程库
+
+git push -u origin master     第一次推送master分支所有内容，-u参数 可以把本地分支和远程分支关联起来，之后推送可以简化命令
+
+git push <origin> <master>    将本地分支的修改推送到远程库
+
+git clone git@github.com:brick1986/gitskills.git   克隆一个远程仓库
