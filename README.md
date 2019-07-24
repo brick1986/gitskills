@@ -44,4 +44,19 @@ master 分支， 稳定，只用作发布版本
 
 dev 分支， 不稳定，用做开发，频繁更新。 dev测试得到一个稳定版本，将dev合并到master上用作发布
 
-成员分支， 每个用户的分支，开发完成后合并分支到 dev。 1. edit on brick-branchxxxxxx   2. edit on qcy-branchyyyyyy  3. it is a feature on dev, status is OK
+成员分支， 每个用户的分支，开发完成后合并分支到 dev。 
+
+
+Bug 分支：
+
+git stash    储藏当前修改，执行完命令以后，当前分支处于clean状态，可以在原有版本上修改指定bug
+
+git stash list   查看储藏的工作现场
+
+git stash apply  恢复工作现场
+
+git stash drop   删除储藏的工作现场
+
+git stash pop    恢复工作现场并删除储藏
+
+git stash apply stash@{0}	 多次储藏后，恢复指定的工作现场
