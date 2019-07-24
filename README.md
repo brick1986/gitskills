@@ -35,4 +35,4 @@ git branch -d <branch_name>  删除指定分支
 
 git log --graph    查看分支合并图
 
-hello,conflict
+git status      查看当前分支状态
